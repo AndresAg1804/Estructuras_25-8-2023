@@ -12,7 +12,7 @@ int main() {
 	
 	std::vector<int>::iterator iter;
 
-	for (auto i : v)
+	for (auto i : v) //auto lo que hace es que guarda cada elemento del vector en i
 	{
 		std::cout << i << "\n";
 	}
